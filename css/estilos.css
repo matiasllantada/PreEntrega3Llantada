@@ -12,7 +12,7 @@ html {
 
 /* HEADER */
 header {
-  background-color: rgb(46, 191, 239);
+  background-color: rgb(61, 153, 245);
   display: flex;
 }
 header img {
@@ -57,7 +57,6 @@ footer ul li {
 }
 footer ul a {
   text-decoration: none;
-  color: rgb(60, 0, 255);
   font-size: 0.5rem;
   color: white;
   font-weight: 500;
@@ -72,7 +71,7 @@ main a {
   border: solid 1px;
   padding: 0.1rem;
   border-radius: 0.15rem;
-  background-color: blue;
+  background-color: rgb(37, 37, 241);
   color: white;
   margin: 0.5rem 0.5rem;
   display: inline-block;
@@ -82,7 +81,7 @@ main a {
 hero h1,
 hero h2 {
   font-size: 2rem;
-  color: blue;
+  color: rgb(37, 37, 241);
   margin: 2rem 0;
   text-align: center;
 }
@@ -165,7 +164,7 @@ hero h2 {
   border-radius: 2rem;
 }
 #contacto p {
-  color: rgb(56, 57, 57);
+  color: rgb(55, 55, 58);
   margin: 0.5rem;
 }
 #contacto .formulario {
@@ -192,7 +191,7 @@ hero h2 {
 #contacto .enviar {
   margin: 0 0 0.5rem 0.5rem;
   padding: 0.1rem;
-  background-color: blue;
+  background-color: rgb(37, 37, 241);
   color: white;
   border-radius: 0.1rem;
 }
@@ -201,19 +200,19 @@ hero h2 {
   display: flex;
 }
 
-.fila.columna-1 {
+.fila.columnas-1 {
   width: 100%;
 }
 
-.fila.columna-2 {
+.fila.columnas-2 {
   width: 50%;
 }
 
-.fila.columna-3 {
+.fila.columnas-3 {
   width: 33.3333333333%;
 }
 
-.fila.columna-4 {
+.fila.columnas-4 {
   width: 25%;
 }
 

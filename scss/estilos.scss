@@ -1,3 +1,5 @@
+@import "variables";
+
 * {
     padding: 0;
     margin: 0;
@@ -15,7 +17,7 @@ html {
 /* HEADER */
 
 header {
-    background-color: rgb(46, 191, 239);
+    background-color: $colorheader;
     display: flex;
 
     img {
@@ -66,7 +68,6 @@ footer {
 
         a {
             text-decoration: none;
-            color: rgb(60, 0, 255);
             font-size: 0.5rem;
             color: white;
             font-weight: 500;
@@ -83,7 +84,7 @@ main {
         border: solid 1px;
         padding: 0.1rem;
         border-radius: 0.15rem;
-        background-color: blue;
+        background-color: $colorresaltar;
         color: white;
         margin: 0.5rem 0.5rem;
         display: inline-block;
@@ -97,7 +98,7 @@ hero {
     h1,
     h2 {
         font-size: 2rem;
-        color: blue;
+        color: $colorresaltar;
         margin: 2rem 0;
         text-align: center;
     }
@@ -191,7 +192,7 @@ hero {
         border-radius: 2rem;
     }
     p {
-        color: rgb(56, 57, 57);
+        color: $colortexto;
         margin: 0.5rem;
     }
     .formulario {
@@ -218,7 +219,7 @@ hero {
     .enviar {
         margin: 0 0 0.5rem 0.5rem;
         padding: 0.1rem;
-        background-color: blue;
+        background-color: $colorresaltar;
         color: white;
         border-radius: 0.1rem
 
@@ -237,29 +238,12 @@ hero {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .fila {
     display: flex;
 }
 
 @for $contador from 1 through 4 {
-    .fila.columna-#{$contador} {
+    .fila.columnas-#{$contador} {
         width: 100% / $contador;
     }
 }
