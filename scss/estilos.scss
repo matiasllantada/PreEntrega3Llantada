@@ -72,7 +72,7 @@ footer {
 /* HERO INDEX */
 
 hero {
-    h1 {
+    h1, h2 {
        font-size: 2rem;
        color: blue;
        margin: 2rem 0;
@@ -98,6 +98,24 @@ hero {
     }
 }
 
+/* MAIN CATALOGO */
+#catalogo {
+    width: 100%;
+    img {
+        width: 100%;
+        height: 8rem;
+    }
+    a {
+        text-decoration: none;
+        border: solid 1px;
+        padding: 0.1rem;
+        border-radius: 0.15rem;
+        background-color: blue;
+        color: white;
+        margin: 0.5rem 0.5rem;
+        display: inline-block;
+    }
+}
 
 
 
