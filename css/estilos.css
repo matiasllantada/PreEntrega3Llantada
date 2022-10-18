@@ -88,6 +88,7 @@ hero h2 {
 
 /* MAIN INDEX */
 #inicio {
+  height: 500px;
   width: 100%;
   max-width: 10rem;
 }
@@ -104,6 +105,7 @@ hero h2 {
 }
 #inicio img {
   width: 100%;
+  margin-bottom: auto;
 }
 
 /* MAIN CATALOGO, AUTOS NUEVOS Y USADOS */
@@ -133,7 +135,7 @@ hero h2 {
 
 /* MAIN NOSOTROS */
 #nosotros {
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
 }
@@ -147,10 +149,12 @@ hero h2 {
 }
 #nosotros p {
   margin-left: 1rem;
+  margin-bottom: auto;
   font-weight: 100;
 }
 #nosotros a {
   display: inline-block;
+  width: fit-content;
 }
 
 #contacto {

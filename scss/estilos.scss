@@ -106,6 +106,7 @@ hero {
 
 /* MAIN INDEX */
 #inicio {
+    height: 500px;
     width: 100%;
     max-width: 10rem;
 
@@ -124,6 +125,7 @@ hero {
 
     img {
         width: 100%;
+        margin-bottom: auto;
     }
 }
 
@@ -159,7 +161,7 @@ hero {
 /* MAIN NOSOTROS */
 
 #nosotros {
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
 
@@ -175,11 +177,13 @@ hero {
 
     p {
         margin-left: 1rem;
+        margin-bottom: auto;
         font-weight: 100;
     }
 
     a {
         display: inline-block;
+        width: fit-content;
     }
 }
 #contacto {
