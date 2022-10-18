@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* HTML */
+
+html {
+    font-size: 162.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: rgb(46, 191, 239);
+    display: flex;
+
+    img {
+        width: 4.5rem;
+        height: 3rem;
+        margin: auto auto auto 1rem 
+    }
+
+    ul {
+        margin: 1rem 1rem 1rem 0rem;
+        font-size: 0.7rem;
+        list-style: none;
+
+        li {
+            padding: 0.15rem;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    p {
+        font-weight: 100;
+        font-size: 0.5rem;
+        margin-right: auto;
+        margin-left: 0.5rem;
+        color: rgb(186, 181, 181);
+    }
+    ul {
+        list-style: none;
+        margin-right: 0rem;
+        display: flex;
+        width: 8rem;
+        li {
+            margin: 0.3rem;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(60, 0, 255);
+            font-size: 0.5rem;
+            color: white;
+            font-weight: 500;
+        }
+    }
+}
+
+/* HERO INDEX */
+
+hero {
+    h1 {
+       font-size: 2rem;
+       color: blue;
+       margin: 2rem 0;
+       text-align: center;
+    }
+}
+
+/* MAIN INDEX */
+#inicio {
+    width: 100%;
+    max-width: 10rem;
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    h3 {
+        font-size: 1rem;
+        font-weight: 100;
+        width:100%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fila {
+    display: flex;
+}
+
+@for $contador from 1 through 4 {
+    .fila.columna-#{$contador} {
+        width: 100% / $contador;
+    }
+}
