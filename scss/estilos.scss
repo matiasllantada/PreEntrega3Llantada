@@ -21,7 +21,7 @@ header {
     img {
         width: 4.5rem;
         height: 3rem;
-        margin: auto auto auto 1rem 
+        margin: auto auto auto 1rem
     }
 
     ul {
@@ -32,6 +32,7 @@ header {
         li {
             padding: 0.15rem;
         }
+
         a {
             text-decoration: none;
             color: white;
@@ -44,6 +45,7 @@ footer {
     display: flex;
     align-items: center;
     background-color: black;
+
     p {
         font-weight: 100;
         font-size: 0.5rem;
@@ -51,14 +53,17 @@ footer {
         margin-left: 0.5rem;
         color: rgb(186, 181, 181);
     }
+
     ul {
         list-style: none;
         margin-right: 0rem;
         display: flex;
         width: 8rem;
+
         li {
             margin: 0.3rem;
         }
+
         a {
             text-decoration: none;
             color: rgb(60, 0, 255);
@@ -69,42 +74,10 @@ footer {
     }
 }
 
-/* HERO INDEX */
+/* MAIN */
 
-hero {
-    h1, h2 {
-       font-size: 2rem;
-       color: blue;
-       margin: 2rem 0;
-       text-align: center;
-    }
-}
-
-/* MAIN INDEX */
-#inicio {
+main {
     width: 100%;
-    max-width: 10rem;
-    h2 {
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-    h3 {
-        font-size: 1rem;
-        font-weight: 100;
-        width:100%;
-    }
-    img {
-        width: 100%;
-    }
-}
-
-/* MAIN CATALOGO */
-#catalogo, #nuevo, #usado {
-    width: 100%;
-    img {
-        width: 100%;
-        height: 8rem;
-    }
     a {
         text-decoration: none;
         border: solid 1px;
@@ -116,19 +89,94 @@ hero {
         display: inline-block;
     }
 }
-#nuevo, #usado {
+
+/* HERO INDEX */
+
+hero {
+
+    h1,
+    h2 {
+        font-size: 2rem;
+        color: blue;
+        margin: 2rem 0;
+        text-align: center;
+    }
+}
+
+/* MAIN INDEX */
+#inicio {
+    width: 100%;
+    max-width: 10rem;
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 1rem;
+        font-weight: 100;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+/* MAIN CATALOGO, AUTOS NUEVOS Y USADOS */
+#catalogo {
+    img {
+        width: 100%;
+        height: 8rem;
+    }
+}
+
+/* MAIN AUTOS NUEVOS Y USADOS */
+#nuevo,
+#usado {
     div {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     img {
         border-radius: .5rem;
         width: 80%;
+        height: 8rem;
     }
+
     p {
         margin: 0.2rem 0;
         max-width: 80%;
+    }
+}
+
+/* MAIN NOSOTROS */
+
+#nosotros {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+    .imagenes {
+        display: flex;
+    }
+
+    img {
+        width: 45%;
+        margin: 0 2.5% 1rem 2.5%;
+        border-radius: 0.2rem;
+    }
+
+    p {
+        margin-left: 1rem;
+        font-weight: 100;
+    }
+
+    a {
+        display: inline-block;
     }
 }
 
