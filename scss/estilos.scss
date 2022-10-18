@@ -99,7 +99,7 @@ hero {
 }
 
 /* MAIN CATALOGO */
-#catalogo {
+#catalogo, #nuevo {
     width: 100%;
     img {
         width: 100%;
@@ -114,6 +114,20 @@ hero {
         color: white;
         margin: 0.5rem 0.5rem;
         display: inline-block;
+    }
+}
+#nuevo, #usado {
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        border-radius: .5rem;
+        width: 80%;
+    }
+    p {
+        margin: 0.2rem 0;
     }
 }
 
