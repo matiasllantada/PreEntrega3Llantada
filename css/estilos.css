@@ -88,9 +88,8 @@ hero h2 {
 
 /* MAIN INDEX */
 #inicio {
-  height: 500px;
+  height: 60vh;
   width: 100%;
-  max-width: 10rem;
 }
 #inicio h2 {
   font-size: 1.5rem;
@@ -100,7 +99,7 @@ hero h2 {
 #inicio h3 {
   font-size: 1rem;
   font-weight: 100;
-  width: 100%;
+  width: 90%;
   margin-left: 0.5rem;
 }
 #inicio img {
@@ -135,7 +134,7 @@ hero h2 {
 
 /* MAIN NOSOTROS */
 #nosotros {
-  height: 500px;
+  height: 60vh;
   display: flex;
   flex-direction: column;
 }
@@ -200,24 +199,65 @@ hero h2 {
   border-radius: 0.1rem;
 }
 
-.fila {
-  display: flex;
-}
-
-.fila.columnas-1 {
-  width: 100%;
-}
-
-.fila.columnas-2 {
-  width: 50%;
-}
-
-.fila.columnas-3 {
-  width: 33.3333333333%;
-}
-
-.fila.columnas-4 {
-  width: 25%;
+/* media queries */
+@media (min-width: 1024px) {
+  body {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    margin-bottom: auto;
+  }
+  .fila {
+    display: flex;
+  }
+  .fila.columna-1 div {
+    width: 100%;
+  }
+  .fila.columna-2 div {
+    width: 50%;
+  }
+  .fila.columna-3 div {
+    width: 33.3333333333%;
+  }
+  .fila.columna-4 div {
+    width: 25%;
+  }
+  #inicio h2 {
+    margin-top: 2rem;
+  }
+  #catalogo {
+    justify-content: space-around;
+  }
+  #catalogo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #catalogo img {
+    width: fit-content;
+  }
+  #nuevo, #usado {
+    justify-content: space-around;
+  }
+  #nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  #nosotros p {
+    margin-bottom: auto;
+  }
+  #nosotros a {
+    display: inline-block;
+  }
+  #contacto .etiquetas {
+    width: 15%;
+  }
+  #contacto .texto {
+    width: 70%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
